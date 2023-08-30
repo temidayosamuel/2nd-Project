@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../Documents/CodeWithMosh/CSS"
+	},
+	{
+		"path": "../../Documents/CodeWithMosh"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CodeWithMosh"
+  }
+}

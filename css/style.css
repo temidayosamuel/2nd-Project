@@ -1,0 +1,240 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #5c5577;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+  padding: 2rem;
+  -ms-flex-align: center;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.card__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div__header {
+  color: lightgrey;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  margin-bottom: 25px;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  font-family: "Hanken Grotesk";
+}
+
+.circle__h1 {
+  font-size: 30px;
+  text-align: top;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.circle__p {
+  text-align: top;
+  margin-top: 0;
+  color: #f3f3f3;
+}
+
+.div__h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+}
+
+.div__p {
+  font-size: 12px;
+  color: lightgray;
+  text-align: center;
+  font-family: "Hanken Grotesk";
+  margin-top: 2px;
+}
+
+.card--content {
+  margin-top: 0;
+}
+
+.card__di {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+  padding-right: 1rem;
+  -ms-flex-align: center;
+  background-color: white;
+}
+
+.di__p {
+  margin-top: 0;
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bttn {
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.btn--primary {
+  background: hsla(0, 100%, 67%, 0.1);
+  color: hsl(0, 100%, 67%);
+  font-size: 11px;
+  font-family: "Hanken Grotesk";
+  text-align: left;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.button__1 {
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn--primary1 {
+  background: hsla(39, 100%, 56%, 0.1);
+  color: hsl(39, 100%, 56%);
+  font-size: 13px;
+  font-family: "Hanken Grotesk";
+  text-align: left;
+  padding-left: 0;
+}
+
+.button__2 {
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn--primary2 {
+  background: hsla(166, 100%, 37%, 0.1);
+  color: hsl(166, 100%, 37%);
+  font-size: 11px;
+  font-family: "Hanken Grotesk";
+  text-align: left;
+  padding-left: 0;
+}
+
+.button__3 {
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn--primary3 {
+  background: hsla(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+  font-size: 11px;
+  font-family: "Hanken Grotesk";
+  text-align: left;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.icon1 {
+  width: 15px;
+}
+
+.icon2 {
+  width: 15px;
+}
+
+.icon3 {
+  width: 15px;
+}
+
+.btn__continue {
+  border: 0;
+  border-radius: 35px;
+  background-color: #120249;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Hanken Grotesk";
+  font-weight: 600;
+  padding-left: 0;
+  padding: 0 5px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  margin-bottom: 5px;
+  padding: 4px;
+}
+
+.btn__continue:hover {
+  background: hsla(250, 43%, 13%, 0.801);
+}
+
+.card___div {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  column-gap: 1rem;
+}
+
+.custom-style {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.custom-style p {
+  margin: 0;
+}
+
+.div__1p {
+  padding-left: 5rem;
+  font-size: 11px;
+  font-weight: 600;
+  color: black;
+}
+
+.div--p {
+  color: gray;
+  font-size: 11px;
+}
+
+.span__memory {
+  font-size: 11px;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
